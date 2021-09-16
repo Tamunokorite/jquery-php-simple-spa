@@ -41,7 +41,7 @@ try {
                 <td><?php echo $message['name'] ?></td>
                 <td><?php echo $message['email'] ?></td>
                 <td><?php echo $message['subject'] ?></td>
-                <td><?php echo $message['message'] ?></td>
+                <td style="cursor: pointer;" onclick="getPage('viewmessage.php?id=<?php echo $message['message_id']?>')"><?php echo $message['message'] ?></td>
                 <td>
                 <a href="mailto:<?php echo $message['email'] ?>" class="btn btn-primary">Reply</a>
                     <button class="btn btn-dark" onclick="getPage('editmessage.php?id=<?php echo $message['message_id'] ?>')">Edit</button>

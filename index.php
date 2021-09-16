@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.1/css/dataTables.bootstrap5.min.css"/>
-    <title>Document</title>
+    <title>Tamunokorite - SPA</title>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="#">SPA</a>
+                <a class="navbar-brand" href="#" onclick="getPage('home.php')">SPA</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
